@@ -39,3 +39,18 @@ rotateY of item at position:
     height: 100%;
     object-fit: cover;
 }
+
+```
+## next is what set up animation (and @keyframes)
+```bash
+.banner .slider に
+ animation: autoRun 20s linear infinite;
+を追加する。
+
+ @keyframes autoRun{
+    from{
+        transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
+    }to{
+        transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
+    }
+```
