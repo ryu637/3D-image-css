@@ -23,6 +23,20 @@
             <div class="item" style="--position: 9;"><img src="images/image-1.jpg" alt="image-9"></div>
             <div class="item" style="--position: 10;"><img src="images/image-1.jpg" alt="image-10"></div>
         </div>
+        <div class="content">
+            <h1 data-content="CSS ONLY">
+            CSS ONLY
+            </h1>
+            <div class="author">
+                <h2>ryu</h2>
+                <p><b>Web Design</b></p>
+                <p>
+                    let me know your feeling about this design.
+                </p>
+            </div>
+            <div class="model"></div>
+        </div>
+   
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
